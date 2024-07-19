@@ -9,3 +9,4 @@ variable "public_key" {
   default     = ""
   description = "The public key. If this is a file, it can be read using the file interpolation function"
 }
+
