@@ -17,7 +17,7 @@ This Terraform module creates structured ssh-key for digitalocean resources with
 
 ```hcl
 module "ssh-key" {
-  source     = "git::https://github.com/opsstation/terraform-digitalocean-ssh-key.git?ref=v1.0.0"
+  source     = "git::https://github.com/yadavprakash/terraform-digitalocean-ssh-key.git?ref=v1.0.0"
   name       = "test"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWdZXx5WsXHQbKhRrunupZe6gayxaGLaIAtwz+xcN7Ln3DvyHJPv56IGeFjc6DPJEwavtXugD+ndVkctRlRpmg5xFek1I4+FNhqmTiVqn6DN+cNkdMEBVm8ILo8+AY8WKDuJUVxR+d2AmaBCL8EGfpMAFA1AHEpgceKq3nJbKvHlxf6obVG1uSfNR5HNvIFfq85EGSUmjY3Z6sXV4Uy201+tU6yRpu5Y0lj/jMC3i8ulXFu1245o4lNDjjUQQh4c2bGLi0L3/CDOHCFeBJaxUWC9yo18LgIv+m4YpSsRIWu014keIrJO4O+vyoybTCVSLl9kWOs8wSXjrg1zqg5VqE/w5XqI+C3Wcrf4aTDJ17oFm1UCVmtpUbHNvd3DoXInozkxk6FRAQGWz4Nmanoj"
 }
@@ -34,14 +34,14 @@ Please ensure you specify the correct 'source' path for the module.
 - This module currently does not provide any outputs.
 
 # Examples
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-ssh-key/tree/master/_example)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/yadavprakash/terraform-digitalocean-ssh-key/tree/master/_example)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-ssh-key/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yadavprakash/terraform-digitalocean-ssh-key/blob/master/LICENSE) file for details.
 
 
 
